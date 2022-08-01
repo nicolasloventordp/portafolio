@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ********* Custom Properties ********* */
+:root {
+  --first-color: #61dafb;
+  --second-color: white;
+  --third-color: #282c34;
+  --white-color: #fff;
+  --black-color: #000000e6;
+  --black-alpha-color: rgba(0,0,0,0.5);
+  --grey-color: #4B4453;
+  --grey-alpha-color: #B0A8B9;
+  --text-color: #222;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ********* Reset ********* */
+html {
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 16px;
 }
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+body{
+  font-family: var(--font);
+  margin: 0px;
+  overflow-x: hidden;
+}
+a:hover {
+  opacity: 0.75;
+}
+h1{
+    margin: 0;
+    font-size: 2rem;
+}
+h2{
+  margin: 0;
+  font-size: 1.5rem;
+}
+h3{
+  margin: 0;
+  font-size: 1.5rem;
+}
+h4{
+  margin: 0;
+  font-size: 1.3rem;
+}
+h5{
+  margin: 0;
+  font-size: 1rem;
+}
+p {
+  font-size: 1.2rem;
+}
+span {
+  font-size: 1rem;
+}
+
+/* ********* Components ********* */
+.button{
+  width: 200px;
+  height: 50px;
+  background-color: var(--first-color);
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: var(--white-color);
+}
+/* ********* Utilities ********* */
+
+.app{
+  width: 100%;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+.box-shadow-1{
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.25);
+}
+.box-shadow-2{
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.5);
+}
+.d-none{
+  display: none;
+}
+
