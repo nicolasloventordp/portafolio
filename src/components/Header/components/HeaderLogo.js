@@ -1,8 +1,7 @@
-
 export default function HeaderLogo({ text }) {
     return (
-        <div className="header-logo">
-            <h2>{text}</h2>
+        <div className="header-box__logo">
+            <h5>{text}</h5>
         </div>
     );
 }
