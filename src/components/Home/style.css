@@ -22,46 +22,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 .home .home-box .home-title{
     color: white;
     font-size: 4rem;
-    animation: Slide_Down 1.5s ease;
 }
 .home .home-box .home-line {
     width: 70%;
     height: 1px;
     background-color: white;
-    animation: Slide_Rigth 1.5s ease;
 }
 .home .home-box button{
-    animation: Slide_Up 1.5s ease;
 }
 
-@keyframes Slide_Up {
-    0%{
-        transform: translateY(250px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-
-@keyframes Slide_Down {
-    0%{
-        transform: translateY(-250px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-
-@keyframes Slide_Rigth {
-    0%{
-        transform: translateX(-250px);
-    }
-    100%{
-        transform: translateX(0);
-    }
-}

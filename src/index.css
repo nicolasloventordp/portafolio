@@ -84,3 +84,30 @@ p {
   display: none;
 }
 
+@keyframes Slide_Up {
+  0%{
+      transform: translateY(250px);
+  }
+  100%{
+      transform: translateY(0);
+  }
+}
+
+@keyframes Slide_Down {
+  0%{
+      transform: translateY(-250px);
+  }
+  100%{
+      transform: translateY(0);
+  }
+}
+
+@keyframes Slide_Rigth {
+  0%{
+      transform: translateX(-250px);
+  }
+  100%{
+      transform: translateX(0);
+  }
+}
+
