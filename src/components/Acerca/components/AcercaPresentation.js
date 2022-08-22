@@ -1,4 +1,3 @@
-
 export default function AcercaPresentation() {
     return (
         <div className="acerca-box__presentation" data-aos="fade-left">

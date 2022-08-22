@@ -4,6 +4,5 @@ export default function AcercaPhoto() {
         <div className="acerca-box__photo" data-aos="fade-right">
             <img src={photoCv} />
         </div>
-       
     );
 }

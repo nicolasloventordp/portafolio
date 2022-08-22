@@ -1,19 +1,17 @@
 .acerca {
     width: 100%;
-    background-color: #4a46466e;
+    background-color: #2b2929;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .acerca .acerca-box {
-    width: 100%;
+    max-width: 980px;
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-
 }
 .acerca .acerca-box .acerca-box__photo{
     max-width: 200px;
@@ -26,12 +24,24 @@
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    border: solid 2px white;
+    border: solid 3px var(--first-color);
 }
 .acerca .acerca-box .acerca-box__presentation {
     padding: 0px 30px 0px 30px;
     line-height: 40px;
-    border: solid 2px white;
+    border: solid 3px var(--first-color);
     border-radius: 10px;
-    background-color: white;
+    background-color: #cac7c7;
+}
+.acerca .acerca-box .btn-cv {
+    position: relative;
+    top: -20px;
+    border: solid 3px var(--first-color);
+    background-color: var(--black-color);
+    color: var(--first-color);
+}
+.acerca .acerca-box .btn-cv svg{
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
 }

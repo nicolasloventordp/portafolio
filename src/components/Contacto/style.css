@@ -1,0 +1,48 @@
+.contacto{
+    width: 100%;
+    height: 400px;
+    background: #2b2929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacto .contacto-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.contacto .contacto-box .contacto-box__card {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    border: solid 3px var(--first-color);
+    border-radius: 10px;
+    background-color: #cac7c7;
+    position: relative;
+}
+.contacto .contacto-box .contacto-box__card .contacto-box__card-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 10px;
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    border-radius: 100%;
+}
+.contacto .contacto-box .contacto-box__card svg{
+    font-size: 40px;
+    margin: 16px;
+    color: var(--first-color);
+}
+.contacto .contacto-box .contacto-box__card .contacto-box__card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto .contacto-box .contacto-box__card .contacto-box__card-text span{
+    text-align: center;
+}

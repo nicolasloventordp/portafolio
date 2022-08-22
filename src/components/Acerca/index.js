@@ -3,7 +3,7 @@ import "./style.css"
 
 export default function Acerca() {
     return (
-        <div className="acerca">
+        <div className="acerca" id="acerca">
             <AcercaBox/>
         </div>
     );
