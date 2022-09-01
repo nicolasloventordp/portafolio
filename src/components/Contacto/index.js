@@ -11,6 +11,11 @@ export default function Contacto() {
     ]
     return (
         <div id="contacto" className="contacto">
+            <div className="route"></div>
+            <div className="route-horizontal">
+                <div className="route-title"><span>Contacto</span></div>
+                <div className="route-circle"></div>
+            </div>
             <ContactoBox itemsSocialMedia={itemsSocialMedia}/>
         </div>
     );

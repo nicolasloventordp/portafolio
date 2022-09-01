@@ -1,6 +1,6 @@
 .contacto{
     width: 100%;
-    height: 400px;
+    height: 100vh;
     background: #2b2929;
     display: flex;
     align-items: center;
@@ -8,8 +8,10 @@
 }
 .contacto .contacto-box{
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
     justify-items: center;
 }
 .contacto .contacto-box .contacto-box__card {
@@ -22,6 +24,12 @@
     background-color: #cac7c7;
     position: relative;
 }
+.contacto-box__card--left{
+    left: 150px;
+}
+.contacto-box__card--right{
+    right: 150px;
+}
 .contacto .contacto-box .contacto-box__card .contacto-box__card-icon{
     display: flex;
     justify-content: center;
@@ -30,8 +38,9 @@
     padding: 10px;
     position: absolute;
     top: -20px;
-    left: -40px;
+    left: -60px;
     border-radius: 100%;
+    border: solid var(--first-color);
 }
 .contacto .contacto-box .contacto-box__card svg{
     font-size: 40px;
@@ -42,6 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 45px;
 }
 .contacto .contacto-box .contacto-box__card .contacto-box__card-text span{
     text-align: center;

@@ -1,9 +1,11 @@
 .acerca {
     width: 100%;
+    height: 100vh;
     background-color: #2b2929;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .acerca .acerca-box {
     max-width: 980px;
