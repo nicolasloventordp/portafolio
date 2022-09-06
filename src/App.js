@@ -1,7 +1,6 @@
 import './App.css'
 import Header from './components/Header'
 import Home from './components/Home'
-import Line from './components/Line'
 import Acerca from './components/Acerca'
 import Contacto from './components/Contacto'
 import Aos from 'aos'

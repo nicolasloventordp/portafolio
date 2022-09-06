@@ -1,4 +1,5 @@
 import ContactoBox from "./components/ContactoBox"
+import Roadmap from "../../components/Roadmap"
 import { FaRegEnvelope, FaPhoneAlt, FaMapMarkedAlt } from "react-icons/fa";
 import "./style.css";
 
@@ -11,11 +12,7 @@ export default function Contacto() {
     ]
     return (
         <div id="contacto" className="contacto">
-            <div className="route"></div>
-            <div className="route-horizontal">
-                <div className="route-title"><span>Contacto</span></div>
-                <div className="route-circle"></div>
-            </div>
+            <Roadmap name="Contacto" circleTop={false}/>
             <ContactoBox itemsSocialMedia={itemsSocialMedia}/>
         </div>
     );

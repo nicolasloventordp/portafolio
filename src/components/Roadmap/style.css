@@ -3,8 +3,10 @@
     background: var(--first-color);
     height: 100%;
     width: 4px;
-    left: 100px;
+    left: 50px;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 .roadmap-title {
     position: absolute;
@@ -17,6 +19,13 @@
     width: 150px;
     background: var(--first-color);
     height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.roadmap-line span {
+    margin-bottom: 5px;
+    color: var(--first-color);
 }
 .roadmap-circle {
     width: 20px;
@@ -24,7 +33,7 @@
     height: 20px;
     border-radius: 50%;
     position: absolute;
-    right: -5px;
+    right: -8px;
     top: -7px;
 }
 .roadmap-vertical-circle {

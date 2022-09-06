@@ -5,7 +5,7 @@ import "./style.css"
 export default function Acerca() {
     return (
         <div className="acerca" id="acerca">
-            <Roadmap/>
+            <Roadmap name="Acerca" circleTop={true}/>
             <AcercaBox />
         </div>
     );
