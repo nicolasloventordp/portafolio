@@ -12,6 +12,7 @@ function App() {
       duration: 2000
     })
   },[])
+  const itemsTabs = ['HOME','ACERCA','CONTACTO'];
   return (
     <div className="app">
       <Header />
