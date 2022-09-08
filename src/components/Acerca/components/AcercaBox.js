@@ -8,7 +8,7 @@ export default function AcercaBox() {
         <div className="acerca-box">
             <AcercaPhoto />
             <AcercaPresentation/>
-            <Button className={"btn-cv"} text={"Descargar cv"} icon={faFileDownload} animation={"fade-up"}/>
+            <Button className={"btn-cv"} text={"Descargar cv"} icon={faFileDownload} animation={"fade-rigth"}/>
         </div>
     );
 }

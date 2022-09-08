@@ -16,7 +16,9 @@ export default function HeaderBox() {
 
     
     const cerrarMenu = () => {
-        $('.icon-circle-mobile').toggleClass("open");
+        $('.header-box__tabs-mobile').removeClass("open");
+        $('.icon-bars-mobile').css("display","flex");
+        $('.icon-circle-mobile').css("display","none");
     }
     return (
         <div className="header-box">
@@ -24,7 +26,7 @@ export default function HeaderBox() {
             <HeaderTabs itemsTabs={itemsTabs}/>
             <IconBarsMobile />
             <IconCircleMobile onClick={() => cerrarMenu()}/>
-            <HeaderTabsMobile itemsTabs={itemsTabs}/>
+            <HeaderTabsMobile itemsTabs={itemsTabs} cerrarMenu={cerrarMenu}/>
             <HeaderSocialMedia itemsSocialMedia={itemsSocialMedia}/>
         </div>
     );

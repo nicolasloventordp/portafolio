@@ -50,6 +50,9 @@
     color: var(--white-color);
     margin-top: 5px;
 }
+.header .header-box .header-box__socialMedia div a svg:hover{
+    color: var(--first-color);
+}
 .icon-bars-mobile, .icon-circle-mobile{
     display: none;
     align-items: center;

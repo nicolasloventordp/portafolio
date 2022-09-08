@@ -12,8 +12,10 @@ export default function Contacto() {
     ]
     return (
         <div id="contacto" className="contacto">
-            <Roadmap name="Contacto" circleTop={false}/>
-            <ContactoBox itemsSocialMedia={itemsSocialMedia}/>
+            <div className="section-grid">
+                <Roadmap name="Contacto" circleTop={false} circleBottom={true}/>
+                <ContactoBox itemsSocialMedia={itemsSocialMedia}/>
+            </div>
         </div>
     );
 }

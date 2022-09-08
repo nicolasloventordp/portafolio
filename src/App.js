@@ -6,6 +6,7 @@ import Contacto from './components/Contacto'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import Footer from './components/Footer'
 function App() {
   useEffect( () => {
     Aos.init({
@@ -19,6 +20,7 @@ function App() {
       <Home />
       <Acerca />
       <Contacto />
+      <Footer />
     </div>
   );
 }

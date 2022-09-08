@@ -1,19 +1,14 @@
 .acerca {
-    width: 100%;
-    height: 100vh;
-    background-color: #2b2929;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+   margin-top: 10px;
 }
 .acerca .acerca-box {
     max-width: 980px;
-    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: auto;
+    padding-top: 50px;
 }
 .acerca .acerca-box .acerca-box__photo{
     max-width: 200px;
@@ -46,4 +41,26 @@
     width: 18px;
     height: 18px;
     margin-left: 6px;
+}
+
+@media (max-width:1350px){
+    .acerca .acerca-box {
+        max-width: 600px;
+    }
+}
+@media (max-width:980px){
+    .roadmap {
+        justify-content: flex-start;
+    }
+}
+@media (max-width:850px){
+    .acerca .acerca-box {
+        width: 90%;
+    }
+    .roadmap {
+        display: none;
+    }
+    .section-grid {
+        grid-template-columns: 1fr;
+    }
 }
